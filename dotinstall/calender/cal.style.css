@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #eee;
+}
+
+thead,
+tfoot {
+    background-color: #eee;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+tbody td:first-child {
+    color: red;
+}
+
+tbody td:last-child {
+    color: blue;
+}
+
+.disabled {
+    opacity: 0.3;
+}
+
+.today {
+    font-weight: bold;
+}
+
+#prev,
+#next,
+#today {
+    cursor: pointer;
+    user-select: none;
+}
+
+
+

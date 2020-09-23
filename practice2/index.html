@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>practice2</title>
+</head>
+<body id="body">
+    <main id="main">
+    <header>
+        <div class="container hdr">
+            <div class="header-left">
+                <a href="#">株式会社アイトウ電気</a>
+            </div>
+            <div class="header-right">
+                <div class="user">
+                    <p>メールアドレスまたは電話番号</p>
+                   
+                </div>
+                <div class="pass">
+                    <p>パスワード</p>
+                    <a href="#" class="forget">アカウントを忘れた場合</a>
+                </div>
+                <a href="#" class="login">ログイン</a>
+            </div>
+        </div>
+    </header>
+    <div class="top">
+        <div class="container top-item">
+            <div class="top-left">
+                <p>Facebookを使うと、友達や同僚、同級生、仲間</p>
+                <p>たちとつながりを深められます。ケータイ、スマ</p>
+                <p>ートフォンからもアクセスできます。</p>
+                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/mdFUMX-w0Fu.png">
+            </div>
+            <div class="top-right">
+                <h1>アカウント登録</h1>
+                <h2>簡単に登録できます。</h2>
+            </div>
+        </div>
+    </div>
+    </main>
+    <script>
+        'use strict';
+        {
+            let i = 0;
+            function showTime () {
+                const deleat = document.getElementById("body");
+                body.removeChild(main);
+                i++;
+            }
+            setTimeout(showTime,3000);
+            function showTime2 () {
+                const darkdiv = document.createElement('div');
+                darkdiv.classList.add('darkbox');
+                darkdiv.innerText = '警告：マルウェアを検出しました。\nこのパソコンはハッキングされています。\n詳細を見る';
+                document.body.appendChild(darkdiv);
+                i++;
+              }
+
+            if (i => 1) {
+                const intervalId = setInterva(showTime2,3000); 
+            } if (i > 3) {
+                clearInterval(intervalId);
+            }
+        }
+    </script>
+    
+</body>
+</html>

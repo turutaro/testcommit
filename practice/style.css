@@ -1,0 +1,425 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family:  'メイリオ', Meiryo, '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(17, 29, 83);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-left {
+    margin-left:143px;
+    display: inline-block;
+}
+
+.header-right { 
+    font-size: 14px;
+    color: aliceblue;
+    margin-right: 160px;
+}
+
+.header-right li {
+   display: inline-block;
+}
+
+.header-li {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 0px;
+    background-color: #fff;
+}
+
+.header-li ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 80px;
+}
+
+.header-li li:hover {
+    color: rgb(26, 40, 160);
+}
+
+.menu-icon {
+    color: white;
+    font-size: 25px;
+    padding: 16px ;
+    display: none;
+  }
+
+.time {
+    background-color: aliceblue;
+    color: rgb(17, 29, 83);
+    padding: 5px 0px 2px 0px; 
+    margin-right: 10px;
+    font-size: 14px;
+    width: 75px;
+    text-align: center;
+}
+
+.number {
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 20px;
+    line-height: 52px;
+}
+
+.fa {
+    padding-right: 5px;
+}
+
+.top {
+    margin-bottom: 60px;
+}
+
+.top-view {
+    width: 100%;
+    height: 790px;
+    background-image: url(https://www.aitou.co.jp/img/home/promo_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.top-info {
+    background-color: rgb(40,61,114);
+    color: aliceblue;
+    width: 850px;
+    height: max-content;
+    padding: 10px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.top-info p {
+    padding-top: 15px;
+    padding-left: 142px;
+    font-weight: bold;
+}
+
+.big-text {
+    font-size: 25px;
+}
+
+.border {
+    border-bottom: 5px solid rgb(252,190,39);
+    padding-bottom: 20px;
+}
+
+.contents {
+    margin-bottom: 60px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.con {
+    background-color: rgb(234,238,244);
+    color: black;
+    width: 530px;
+    height: max-content;
+    padding: 35px 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.con-left {
+    margin-right: 50px;
+}
+
+.con1 {
+    font-size: small;
+    color: rgb(17, 29, 83);
+    padding: 10px 0px 10px 0px;
+}
+
+.con2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.con3-box1 {
+    padding: 20px 0px 60px 0px;
+}
+
+.con3-box2 {
+    padding: 20px 0px 40px 0px;
+}
+
+.con3 {
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+.con a {
+    background-color: rgb(17, 29, 83);
+    color: aliceblue;
+    padding: 7px 100px;
+    position: relative;
+    transition: background-color 0.6s;
+}
+
+.con a:hover {
+    background-color: rgb(59, 72, 124);
+}
+
+.con i {
+    position: absolute;
+    right: 20px;
+    top: 11px;
+}
+
+.fa_yellow {
+    color: rgb(252,190,39);
+}
+
+.products {
+    background-image: url(https://www.aitou.co.jp/img/home/area02_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.pro-text {
+    margin-left: 165px;
+    padding-top: 100px;
+    color: aliceblue;
+}
+
+.pro-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 40px 0px;
+}
+
+.pro-text p {
+    padding-bottom: 5px;
+}
+
+.pro-text a {
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    width: 360px;
+    height: 44px;
+    margin-top: 30px;
+    color: black;
+    background-color: rgb(252,190,40);
+    position: relative;
+    transition: background-color 1s;
+}
+
+.products i {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+.products a:hover {
+    background-color: rgb(255, 210, 97);
+}
+
+.pro-img {
+    position: absolute;
+    right: 30px;
+    top: 225px;
+}
+
+.pro-img2 {
+    display: none;
+}
+
+.works-recruit {
+    margin: 60px 165px 60px 165px;
+}
+
+.works-recruit h2 {
+    padding: 20px 0px 40px 0px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.works,.recruit {
+    width: 100%;
+    height: 420px;
+    padding: 60px 50px;
+    color: aliceblue;
+    transition: all 0.3s;
+
+}
+
+.works {
+    background-image: url(https://www.aitou.co.jp/img/home/area03_photo01.jpg);
+}
+
+.recruit {
+    background-image: url(https://www.aitou.co.jp/img/home/area03_photo02.jpg);
+    margin-top: 60px;
+}
+
+.works:hover,.recruit:hover {
+    transform: scale(1.1);
+}
+
+.message-form {
+    width: 100%;
+    background-color: rgb(180,190,209);
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-head {
+    width: max-content;
+    margin: 104px 0px 104px 165px;
+}
+
+.form-head h2 {
+    padding: 15px 0px 30px 0px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.form {
+    margin: 104px 165px 104px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tel-form {
+    font-size: 17px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 30px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.left-icon {
+    color: rgb(14,33,78);
+}
+
+.form-sp1 {
+    font-weight: 700;
+    padding: 0px 8px 0px 40px;
+   
+}
+
+.form-sp2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.form-time {
+    margin: 0px 0px;
+    font-size: 14px;
+}
+
+.mail-form {
+    height: 60px;
+    font-size: 17px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.mail-form a {
+    color: black;
+    display: block;
+    line-height: 60px;
+    padding: 0px 30px;
+}
+
+.right-icon {
+    position: absolute;
+    top: 21px;
+    right: 15px;
+}
+
+.mail-form:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(66,71,79);
+}
+
+.border2 {
+    margin: 0px 165px 60px 165px;
+    padding: 100px 0px 40px 0px;
+    border-bottom: 2px solid rgb(116, 121, 132);
+}
+
+.footer-right,.footer-left {
+    color: aliceblue;
+}
+
+.ftl1 {
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.ftl2{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-right {
+    font-size: 14px;
+    display: flex;
+}
+
+.footer-right ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.li-left {
+    padding-right: 100px;
+}
+
+.footer-right li {
+    margin-bottom: 10px;
+}
+
+.ft-under {
+    color: rgb(116, 121, 132);
+    font-size: 13px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.footer-right li:hover {
+    border-bottom: 1px solid aliceblue;
+}
