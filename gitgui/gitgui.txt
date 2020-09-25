@@ -1,4 +1,2 @@
 firsttest
 secondtest
-thirdtest
-lasttest
